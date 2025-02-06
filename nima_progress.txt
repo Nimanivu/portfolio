@@ -1,0 +1,5 @@
+Day 1:06/02/25
+
+html tags:<div></div>,<header></header>,<footer></footer> etc..
+implemented simple styles in the portfolio.
+difficulties while styling.
