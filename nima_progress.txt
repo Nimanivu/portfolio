@@ -3,3 +3,10 @@ Day 1:06/02/25
 html tags:<div></div>,<header></header>,<footer></footer> etc..
 implemented simple styles in the portfolio.
 difficulties while styling.
+
+
+Day 2:07/02/25
+
+html tags:<img>,<a></a>.improved styling in the page.
+implemented images,button and links in the portfolio.
+Faced difficulties in adding button as link.

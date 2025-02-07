@@ -1,12 +1,28 @@
 body {
+
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
             background-color: #ebdba8;
         }
+        h1{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            
+        }
+        h2{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            
+        }
+        p{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            
+        }
         header {
-            background: #eee3e3;
+            background: url('headerr.jpg');
             color: rgb(39, 34, 34);
             padding: 20px;
         }
@@ -25,5 +41,27 @@ body {
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .btn-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            width: 200px;
+            background-color: #ebb079;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #567aa0;
         }
     
