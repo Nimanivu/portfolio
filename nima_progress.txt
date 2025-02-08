@@ -10,3 +10,8 @@ Day 2:07/02/25
 html tags:<img>,<a></a>.improved styling in the page.
 implemented images,button and links in the portfolio.
 Faced difficulties in adding button as link.
+
+Day 3:08/02/25
+html tags:<ul></ul>,<li></li>,<strong></strong>,<span></span>.improved more styling in the pages.
+implemented more background images and styles,lists,links and completed the contents in the portfolio.
+Faced difficulties in while adding background images in which it included the contents.

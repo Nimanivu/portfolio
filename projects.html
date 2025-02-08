@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('header.jpg') no-repeat center center/cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(241, 232, 232, 0.7);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        h1, h2 {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            color: #292821;
+        }
+        p {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.6;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #4a6161;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    width: 100px;
+    background-color: #2c2927;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #567aa0;
+}
+       
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="btn">Back to Home</a>
+    <a href="about.html" class="btn">Go Back</a>
+
+    <div class="container">
+        <h1>Degree Project: <span class="highlight">AbleTrack</span></h1>
+        
+        <h2>🔍 Overview</h2>
+        <p><span class="highlight">AbleTrack</span> focuses on developing a <strong>learning disability prediction system</strong> using the <strong>Decision Tree Algorithm</strong>. It identifies students who may have reading and writing disabilities based on their exam performance.</p>
+
+        <h2>🛠 Technologies Used</h2>
+        <ul>
+            <li><strong>Front-end:</strong> Python (Web App), Android (Mobile App)</li>
+            <li><strong>Back-end:</strong> MySQL</li>
+            <li><strong>Text Extraction:</strong> PyTextract (for converting handwritten & printed text to machine-readable format)</li>
+        </ul>
+
+        <h2>👥 User Roles</h2>
+        <ul>
+            <li><strong>Administrators:</strong> Manage users and control system functionalities.</li>
+            <li><strong>Teachers:</strong> Manage questions, view student responses, and provide feedback.</li>
+            <li><strong>Parents:</strong> Register students, update profiles, allow exam access, and view scores.</li>
+        </ul>
+
+        <h2>📊 How It Works</h2>
+        <p>The system analyzes student exam results and predicts learning disabilities by using the <strong>Decision Tree Model</strong>. Various factors, such as exam scores and answer quality, are considered in making predictions.</p>
+        <p>With <span class="highlight">PyTextract</span>, handwritten and printed text from exams is converted into digital format for accurate evaluation.</p>
+
+        <h2>🎯 Key Benefits</h2>
+        <ul>
+            <li>🔹 Accurate and efficient disability prediction</li>
+            <li>🔹 Helps teachers and parents identify learning difficulties early</li>
+            <li>🔹 Improves educational support for students</li>
+        </ul>
+
+        
+    </div>
+
+</body>
+</html>
